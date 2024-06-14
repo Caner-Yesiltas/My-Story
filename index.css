@@ -22,7 +22,7 @@
 .section1 {
   background-color: #1c1e26;
   width: 100%;
-  height: 14rem;
+  height: 40rem;
 }
 
 .menu {
@@ -51,10 +51,11 @@ nav > h1 {
 
 .introduce img {
   float: right;
-  width: 200px;
-  height: 150px;
-  margin-top: 150px;
-  margin-right: 200px;
+  width: 250px;
+  height: 200px;
+  margin-top: 100px;
+  margin-right: 150px;
+  border-radius: 40px;
 }
 
 .introduce2 {
@@ -158,6 +159,69 @@ nav > h1:hover {
 }
 
 .section2 {
+  background-color: #2a2b31;
+  width: 100%;
+  height: 30rem;
+}
+
+aside img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin-left: 250px;
+  border-radius: 25px;
+  padding-top: 25px;
+  margin-top: 10px;
+}
+
+.span1 {
+  color: #85ffbd;
+  ont-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.float2 {
+  position: relative;
+  left: 100px;
+  top: 70px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.float2 h1 {
+  font-size: xx-large;
+}
+
+.float2 h2 {
+  color: rgb(96, 193, 238);
+}
+
+.float2 p {
+  color: aliceblue;
+}
+
+.float2 h3 {
+  font-family: "Rock Salt", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: darksalmon;
+  font-size: large;
+}
+
+.fear {
+  position: relative;
+  left: 180px;
+  cursor: pointer;
+}
+
+.float2 h3:hover {
+  color: #1c1e26;
+}
+
+.section3 {
   background-color: #1c1e26;
   width: 100%;
   height: 30rem;
