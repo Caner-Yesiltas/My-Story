@@ -36,14 +36,15 @@ nav > h1 {
   font-weight: 400;
   font-style: normal;
   color: darksalmon;
+  cursor: pointer;
 }
 
 img {
   float: right;
   width: 200px;
   height: 150px;
-  margin-top: 140px;
-  margin-right: 250px;
+  margin-top: 150px;
+  margin-right: 200px;
 }
 
 .introduce2 {
@@ -58,5 +59,53 @@ img {
 }
 
 .introduce2 h2 {
-  color: darkgoldenrod;
+  color: rgb(230, 178, 46);
+}
+
+.introduce2 h3 {
+  color: rgb(187, 7, 112);
+}
+
+i {
+  font-size: 30px;
+}
+
+.svg-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.svg-icons .fa-linkedin {
+  color: #12a4f3;
+}
+
+.svg-icons .fa-square-github {
+  color: #ee9025;
+}
+
+.svg-icons .fa-square-instagram {
+  color: rgb(255, 249, 255);
+}
+
+.svg-icons .fa-square-whatsapp {
+  color: rgb(84, 196, 19);
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  font-family: "Rock Salt", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(148, 5, 76);
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  cursor: pointer;
+}
+
+.menu li {
+  cursor: pointer;
 }
