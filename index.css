@@ -36,10 +36,13 @@
   gap: 1rem;
   list-style-type: none;
   margin-right: 5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 nav > h1 {
-  position: relative;
+  position: fixed;
   top: 2rem;
   left: 10rem;
   font-family: "Rock Salt", cursive;
@@ -226,7 +229,7 @@ aside img {
 .section3 {
   background-color: #1c1e26;
   width: 100%;
-  height: 70rem;
+  height: 35rem;
   text-align: center;
 }
 
@@ -257,14 +260,18 @@ aside img {
   padding: 20px;
 }
 
-.box1 {
+.box5 {
   width: 1400px;
-  height: 200px;
-  background-color: rgba(219, 233, 224, 0.918);
+  height: 200x;
+  background-color: rgba(241, 128, 108, 0.918);
 
   border-radius: 20px;
   cursor: pointer;
   padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
 }
 
 .box .fa-code {
@@ -330,4 +337,95 @@ skills h3 {
 
 .box4 {
   background-color: rgba(253, 101, 246, 0.918);
+}
+
+.box5:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.box5:hover {
+  background-color: rgb(211, 62, 3);
+}
+
+.section4 {
+  background-color: #2a2b31;
+  width: 100%;
+  height: 80rem;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image2,
+.image3,
+.image4,
+.image5 {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.image6,
+.image7,
+.image8 {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.image {
+  cursor: pointer;
+}
+
+.image:hover {
+  filter: brightness(50%);
+  box-shadow: 0 0 15px 5px rgba(243, 3, 3, 0.796);
+  transform: scale(1.05);
+  transition: all 1.9s ease;
+}
+
+.section4 h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #ee9025;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-text {
+  text-align: start;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(1, 12, 1);
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.footer .fa-xbox {
+  color: chartreuse;
+}
+
+.xbox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: chartreuse;
+}
+
+.xbox a:hover {
+  cursor: pointer;
+  color: chartreuse;
 }
