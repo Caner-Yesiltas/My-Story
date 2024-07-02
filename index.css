@@ -429,3 +429,24 @@ skills h3 {
   cursor: pointer;
   color: chartreuse;
 }
+
+@media (max-width: 1821px) {
+  .introduce img {
+    max-height: 9rem;
+    max-width: 10%;
+    display: block;
+    width: 10%;
+
+    .float2 p {
+      word-wrap: break-word;
+    }
+  }
+}
+
+@media (max-width: 1821px) {
+  .float2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+}
